@@ -11,7 +11,7 @@
 }
 ```
 
-![av](flex-direction.jpg)
+![av](img/flex-direction.jpg)
 ####2.flex-wrap  (属性申明一行放不下时是否需要换行)
 ```css
 .container{
@@ -24,7 +24,7 @@
 	justify-content:flex-start(default)|flex-end|center|spance-between|space-around|space-evenly;
 }
 ```
-![](justify-content.png)
+![](img/justify-content.png)
 
 ```.container{
 		width: 600px;
@@ -41,7 +41,7 @@
 	align-items:stretch(default)|flex-start|flex-end|center|baseline;
 }
 ```
-![](align-items.png)
+![](img/align-items.png)
 
 ```.container{
 	align-items:center;
@@ -73,7 +73,7 @@ flex-grow会先统计所有子元素想要占用的申请份数，最后根据�
 弹性容器负债空间：弹性盒子在规则和宽度等约束下，行内短缺空间，不换行造成的弹性盒子挤压
 flex-shrink会先统计子元素要还的申请份数，最后根据所有子元素申请的份数，分配挤压的空间
 
-![](flex-shrink.jpg)
+![](img/flex-shrink.jpg)
 
 ```
 .child1,.child3,.child4{
