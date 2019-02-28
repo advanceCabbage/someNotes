@@ -89,3 +89,22 @@ flex-shrink会先统计子元素要还的申请份数，最后根据所有子元
 	flex-basis:<length>|auto;//default is auto
 	}
 ```
+####9.align-content(属性将容器的一行视为最小单位，它申明的是如果容器的交叉轴方向有富余空间，每行应该怎么垂直对齐)
+```
+.container{
+	align-content:stretch(default)|flex-start|flex-end|center|spance-between|space-around|space-evenly
+}
+```
+
+##实际运用中例子
+####1.实现垂直居中
+```css
+.container{
+	display:flex;
+	justify:center;
+	align-items:center;
+}
+
+```
+
+[阮一峰弹性盒子布局实例](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
